@@ -1,0 +1,3 @@
+document.getElementById('year').textContent=new Date().getFullYear();
+const form=document.getElementById('enquiry');
+form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form);const text=`Hello Tracos Autos, I’d like to make an enquiry.%0A%0AName: ${encodeURIComponent(d.get('name'))}%0APhone/WhatsApp: ${encodeURIComponent(d.get('phone'))}%0ARequest: ${encodeURIComponent(d.get('need'))}%0AVehicle brief: ${encodeURIComponent(d.get('message')||'Not specified')}`;window.open(`https://wa.me/233540966267?text=${text}`,'_blank');document.getElementById('note').textContent='Opening WhatsApp…';});
