@@ -1,11 +1,13 @@
 # Tracos Autos Website
 
-Official Tracos Autos website. Designed for GitHub Pages deployment.
+Deployment-ready static website for Tracos Autos, Accra, Ghana.
 
-- `index.html` is at the repository root.
-- `styles.css` contains the site styling.
-- `script.js` powers the enquiry form and WhatsApp handoff.
-- `assets/` contains the supplied vehicle/brand images.
+## Updated Honda inventory
+- 2024 Honda Accord Sport — GH₵405,000 — 8,000 km
+- 2024 Honda CR-V Sport Touring Hybrid — GH₵430,000 — 18,000 km
+- 2023 Honda Civic Touring — GH₵310,000 — 15,000 km
 
-Instagram: @TracostmAutos
-WhatsApp/Call: 054 096 6267
+Each Honda listing includes exterior, rear, interior and flyer imagery plus a direct WhatsApp enquiry CTA. The gallery images are sourced from Tracos Autos promotional materials supplied for this project.
+
+## Deploy
+Upload all files in this folder to the root of the GitHub Pages `main` branch.
